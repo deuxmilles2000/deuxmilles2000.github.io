@@ -1,0 +1,180 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    
+    
+}
+
+h1{ color: white; font-size: xx-large;}
+
+
+#enjoy-nature{position: relative; top: 1rem; border-right: 5rem, blue;
+
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0rem;
+    margin-left: 0rem;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 1rem;
+}
+
+.navbutton_header{
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #DB322E;
+    color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#history{
+    position: relative;
+    right: -3rem;
+}
+
+#hotels{
+    position: relative;
+    left: -3rem;
+}
+
+  
+.navbutton_header a:hover{
+    transform: scale(1.3);
+}
+
+
+#landofpeaks{
+    color: #DB322E;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#landofrivers{
+    position: relative;
+    top: -5rem;
+}
+
+#discovertirol{
+    position: relative;
+    top: -5rem;
+}
+
+#main_content{
+    padding: 0rem;
+    
+    
+}
+
+#article1{
+    font-size: 1.2rem;
+    text-align: left;
+    
+}
+.paragraph{
+    margin-right: 53rem;
+    margin-left: 3rem;
+    text-align: justify;
+
+}
+
+
+h2{
+    color: #DB322E;
+    text-align: center;
+}
+
+#Restaurant{
+    width: 19rem;
+    position: absolute;
+    left: 10rem;
+    right: 70rem;
+    border-radius: 20%;
+
+}
+
+#Schnitzel{
+    width: 30rem;
+    position: absolute;
+    right: 15rem;
+    top: 64rem;
+    border-radius: 20%;
+}
+
+.paragraph2{
+    text-align: justify;
+    margin-left: 53rem;
+    margin-right: 3rem;
+}
+.container{
+    padding: 2rem;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+#page_footer{
+    background-color: #DB322E;
+    padding: 50px;
+    color: white;
+}
+    
+
